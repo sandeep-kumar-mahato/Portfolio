@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #740021;
+  color: #FDC8AA;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  margin-bottom: 3%;
+}
+
+hr {
+  border: dotted #ffffff 10px;
+  border-bottom: none;
+  width: 8%;
+  margin: 3rem auto 0;
+}
+
+/* Home Section */
+
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-nav {
+  margin-right: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #FFC4C4;
+}
+
+.profile-pic {
+  float: left;
+}
+
+.sub-heading {
+  padding: 2% 0;
+  letter-spacing: 1.4rem;
+}
+
+.resume-button,
+.check-it-out {
+  width: 50%;
+  margin: 4% 0;
+  color: #FDC8AA;
+  border: 1px solid #FDC8AA;
+}
+
+.resume-button:hover,
+.check-it-out:hover {
+  background-color: #FFC4C4;
+  color: #740021;
+}
+
+.social-icons {
+  margin: 3%;
+  color: #FDC8AA;
+}
+
+.social-icons:hover {
+  color: #FFC4C4;
+}
+
+/* about section */
+
+.heading {
+  font-size: 3rem;
+  margin: 3% 0;
+}
+
+.desc {
+  text-align: left;
+  line-height: 1.8;
+  word-spacing: 0.1rem;
+  padding: 0 24px;
+}
+
+.desc2 {
+  font-size: 2rem;
+  text-align: left;
+  line-height: 1.8;
+  word-spacing: 0.1rem;
+  padding: 0 24px;
+}
+
+/* Skills */
+
+.skills-img {
+  width: 30%;
+}
+
+.skill-col {
+  margin-bottom: 3%;
+}
+
+.title {
+  margin-top: 1%;
+}
+
+/* Projects section */
+
+.card-box {
+  display: flex;
+  padding: 24px;
+}
+
+.card {
+  background-color: #740021;
+  box-shadow: 1px 1px 5px #FFC4C4;
+  width: 40%;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 2rem;
+  margin: 1% 1% 3%;
+}
+
+/* Contact Section */
+
+form {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  margin: 3% 0 1%;
+  font-size: 1.3rem;
+}
+
+.input1 {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid #FDC8AA;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #FFC4C4;
+}
+
+.contact-me {
+  width: 100%;
+}
+
+.footer {
+  background-color: #FDC8AA;
+  color: #740021;
+}
+
+.footer i {
+  color: #740021;
+}
+
+.footer i:hover {
+  color: #e40e4b;
+}
+
+.copyright {
+  margin: 0;
+}
+
+@media(max-width:990px) {
+
+  .container-fluid {
+    padding: 2% 8%;
+  }
+
+  .main-heading {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  hr {
+    border: dotted #ffffff 5px;
+    width: 10%;
+    border-bottom: none;
+    margin: 1rem auto 0;
+  }
+
+
+  /* Home Section */
+
+  .logo {
+    width: 50%;
+  }
+
+  .profile-pic {
+    float: none;
+  }
+
+  .sub-heading {
+    text-align: center;
+    padding: 2% 0;
+    letter-spacing: 1.4rem;
+  }
+
+  .resume-button,
+  .check-it-out {
+    width: 100%;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+  .social-icons {
+    font-size: 1.5rem;
+    margin: 7px;
+    padding: 0;
+    color: #FDC8AA;
+  }
+
+  /* about section */
+
+  .heading {
+    font-size: 1.5rem;
+    margin: 3% 0;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+    padding: 0 20px;
+  }
+
+  .desc2 {
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.8;
+    word-spacing: 0.1rem;
+    padding: 0 24px;
+  }
+
+  /* Skills */
+
+  .skills-img {
+    width: 30%;
+  }
+
+  .skill-col {
+    margin-bottom: 3%;
+  }
+
+  /* Projects section */
+
+  .card-box {
+    display: block;
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    margin: 1% 1% 3%;
+  }
+
+  /* Contact Section */
+
+  form {
+    width: 100%;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 3rem 0 0;
+    background-color: #FDC8AA;
+    color: #740021;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
